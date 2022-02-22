@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivPrepod"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/tvPrepod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:textAlignment="center"
+        android:text="ФИО преподавателя"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivPrepod"
+        android:layout_toEndOf="@+id/ivPrepod" />
+
+    <TextView
+        android:id="@+id/tvDolzhnost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Должность"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/ivPrepod"
+        android:layout_alignLeft="@+id/tvPrepod"
+        android:layout_alignStart="@+id/tvPrepod" />
+</RelativeLayout>

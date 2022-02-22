@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout235"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="День: "
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/raspDayPrep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="День недели"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/raspGroupPrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Название группы"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignBaseline="@+id/textView34"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_toRightOf="@+id/raspTimePrep"
+        android:layout_toEndOf="@+id/raspTimePrep" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Группа: "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/raspTimePrep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/raspTimePrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="С Х До У"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/linearlayout235"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/raspDiscipPrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Дисциплина"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/raspTimePrep"
+        android:layout_alignBottom="@+id/raspTimePrep"
+        android:layout_toRightOf="@+id/raspTimePrep"
+        android:layout_toEndOf="@+id/raspTimePrep"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Аудитория: "
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/raspGroupPrep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/raspAudPrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1111"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/textView56"
+        android:layout_alignBottom="@+id/textView56"
+        android:layout_toRightOf="@+id/textView56"
+        android:layout_toEndOf="@+id/textView56" />
+
+</RelativeLayout>

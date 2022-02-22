@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ИС ИСОиП Андроид</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Выход</string>
+    <string name="title_activity_groups">Все Группы</string>
+    <string name="univer_title">ИСОиП (ф) ДГТУ (бывш. ЮРГУЭС)</string>
+    <string name="isforuniver">Информационная система университета</string>
+    <string name="menu_title1">Главная</string>
+    <string name="menu_title2">Расписание групп</string>
+    <string name="menu_title3">Кафедры и преподаватели</string>
+    <string name="menu_title4">Факультеты</string>
+    <string name="menu_title5">Оценки</string>
+    <string name="title_activity_group_info">Информация о группе</string>
+    <string name="mainActivityTitle">Добро пожаловать в мобильный клиент информационной системы ИСОиП (ф) ДГТУ (бывш.ЮРГУЭС). Чтобы выбрать необходимый пункт для просмотра, откройте меню слева. Для просмотра новостного раздела необходимо нажать круглую кнопку внизу.</string>
+    <string name="title_activity_kafeders">Кафедры</string>
+    <string name="title_activity_kafeders_info">Информация о кафедре</string>
+    <string name="title_activity_prepods">Преподаватели</string>
+    <string name="title_activity_find_marks">Оценки</string>
+    <string name="title_activity_fackult">Факультеты</string>
+    <string name="title_activity_fackult_info">Информация о факультете</string>
+</resources>

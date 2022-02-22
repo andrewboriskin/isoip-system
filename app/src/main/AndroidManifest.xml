@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andrew.isoip_final">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logotip2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GroupsActivity"
+            android:label="@string/title_activity_groups"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GroupInfoActivity"
+            android:label="@string/title_activity_group_info"
+            android:parentActivityName=".GroupsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.GroupsActivity" />
+        </activity>
+        <activity android:name=".RaspisanieActivity" />
+        <activity android:name=".NewsActivity" />
+        <activity
+            android:name=".KafedersActivity"
+            android:label="@string/title_activity_kafeders"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.MainActivity" />
+        </activity>
+        <activity
+            android:name=".KafedersInfoActivity"
+            android:label="@string/title_activity_kafeders_info"
+            android:parentActivityName=".KafedersActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.KafedersActivity" />
+        </activity>
+        <activity
+            android:name=".PrepodsActivity"
+            android:label="@string/title_activity_prepods"
+            android:parentActivityName=".KafedersInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.KafedersInfoActivity" />
+        </activity>
+        <activity android:name=".RaspisaniePrepodovActivity" />
+        <activity
+            android:name=".FindMarksActivity"
+            android:label="@string/title_activity_find_marks"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.MainActivity" />
+        </activity>
+        <activity android:name=".MarksActivity" />
+        <activity
+            android:name=".FackultActivity"
+            android:label="@string/title_activity_fackult"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FackultInfoActivity"
+            android:label="@string/title_activity_fackult_info"
+            android:parentActivityName=".FackultActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.isoip_final.FackultActivity" />
+        </activity>
+    </application>
+
+</manifest>
